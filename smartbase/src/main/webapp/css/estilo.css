@@ -1,0 +1,53 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-image: url("/img/background.png");
+	
+}
+
+#header {
+	position:absolute;
+    width:100%;
+    height:100px;
+    background-color: grey;
+}
+
+#footer {
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+}
+
+#divConteudo {
+	position: relative;
+	width: 850px;
+    height: 1000px;
+    left: 37%;
+    margin-left: -250px;
+    background-color: white;
+	
+}
+
+h3 {
+	font-size: 28px;
+	color: white;
+	margin-left: 20px;
+}
+
+#in-search {
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 75px;
+	width: 75%;
+	height: 30px;
+	font-size: 24px;
+}
+
+#bt-search {
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 718px;
+	height: 36px;
+}
